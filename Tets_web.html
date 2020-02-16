@@ -1,41 +1,78 @@
 <!DOCTYPE html>
+
 <head>
 
-<style>
-
-th,td,table{
-border: 1px solid black;
-width:50%
-
-
-}
-
-td{
-text-align:center;
-}
-</style>
-<title>
-This is my page
-</title>
+    <style>
+        th,
+        td,
+        table {
+            border: 1px solid black;
+            width: 50%
+        }
+        
+        td {
+            text-align: center;
+        }
+    </style>
+    <title>
+        This is my page
+    </title>
 
 </head>
 
-<body>
+<body style="background-color: dimgrey;">
+
+    <bdo dir="rtl">This text will be written from right to left</bdo>
 
 
-<table>
+    <p style="color: crimson; padding: 30px; font-size: large;">This is different not good here </p>
 
-<th>Name</th>
-<th>Age</th>
+    <a href="https://www.google.hu/webhp?tab=rw1" style="width: fit-content; color: blue; border: 20px; padding: 40px;">Click here</a>
+    <img src="joker.jpg" alt="Workplace" usemap="#workmap">
 
-<tr>
+    <map name="workmap">
+          <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+          <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+          <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+        </map
+    
+        
 
-<td>ALI</td>
-<td>24</td>
-</tr>
+    <button style="border: solid; color: blue;border-width: 2px;">Pleaase clikc here if u want to see the photo </button>
 
-</table>
+    <ul>
+        <h2>
+            <li>Section One </li>
+            <li>Section two </h2>
+        <ol>
+            <li style="font: bolder; font-style: italic;">Chapter one </li>
+            <li>Chapter two</li>
+
+        </ol>
 
 
+        </li>
 
+
+    </ul>
+    <table>
+
+        <th>Name</th>
+        <th>Age</th>
+
+        <tr>
+
+            <td>ALI</td>
+            <td>24</td>
+        </tr>
+
+    </table>
+
+    <iframe src="demo_iframe.htm" height="200" width="300"></iframe>
+
+    <script>
+
+document.getElementById("demo").innerHTML="hello world ";
+
+    </script>
 </body>
